@@ -1,7 +1,7 @@
 
 const { expect } = require('@playwright/test');
 const test = require('../common/commonFunction.js');
-const inputData = require('../../Inputdata.json');
+const inputData = require('../../InputData.json');
 
 test('Verify if the user can log in with valid credentials and then sign out', async ({ loginpage }) => {
   await loginpage.EmailField().fill(inputData.Login.Email);
