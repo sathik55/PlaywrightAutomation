@@ -1,0 +1,9 @@
+{
+    "Login": {
+      "Url": "https://stage.kasaconnect.com/",
+      "Email": "Sathik.a@vuedata.in",
+      "Password": "Test@123",
+      "EmptyPasswordValidation": "\"password\" is not allowed to be empty"
+    }
+  }
+  
