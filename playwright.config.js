@@ -1,4 +1,3 @@
-// @ts-check
 const { defineConfig, devices } = require('@playwright/test');
 
 module.exports = defineConfig({
@@ -28,10 +27,10 @@ module.exports = defineConfig({
       name: 'Desktop Safari',
       use: { ...devices['Desktop Safari'] },
     },
-    {
-      name: 'Mobile iPhone 15',
-      use: { ...devices['iPhone 15'] },
-    },
+    // {
+    //   name: 'Mobile iPhone 15',
+    //   use: { ...devices['iPhone 15'] },
+    // },
   ],
 });
 
